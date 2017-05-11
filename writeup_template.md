@@ -25,11 +25,16 @@ The goals / steps of this project are the following:
 [image9]: ./results/MyModel.png "My Implemented Nvidia Network"
 [image10]: ./results/Loss_of_training_and_validation.png "Loss of training and validation"
 
-## Rubric Points
-###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
-
 ---
-###Files Submitted & Code Quality
+
+####1. Udacity Self-driving-car Simulator based Data Recoding 
+* The simulator has Training mode and Autonomous mode and two courses. 
+* In my case, I only tested on the track1.
+* Training mode is used to collect training data by driving through the tracks and recording the driving data. 
+* The Autonomous mode is the test mode for our trained model.
+
+![alt text][image1]
+
 
 ####1. Submission includes all required files and can be used to run the simulator in autonomous mode
 
@@ -97,7 +102,7 @@ The final model architecture (model.py lines 18-24) consisted of a convolution n
 
 Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
 
-![alt text][image1]
+
 
 ####3. Creation of the Training Set & Training Process
 
