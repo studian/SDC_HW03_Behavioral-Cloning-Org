@@ -14,13 +14,16 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/placeholder.png "Model Visualization"
-[image2]: ./examples/placeholder.png "Grayscaling"
-[image3]: ./examples/placeholder_small.png "Recovery Image"
-[image4]: ./examples/placeholder_small.png "Recovery Image"
-[image5]: ./examples/placeholder_small.png "Recovery Image"
-[image6]: ./examples/placeholder_small.png "Normal Image"
-[image7]: ./examples/placeholder_small.png "Flipped Image"
+[image1]: ./results/Simulator.png "Self Driving Car Simulator"
+[image2]: ./results/loadimages.png "Load Images"
+[image3]: ./results/HSVimage.png "Convert HSV Image"
+[image4]: ./results/random_brightness.png "Generated New Bright Images"
+[image5]: ./results/fliped_Image.png "Flipped Image"
+[image6]: ./results/Cropimage.png "Croped Image (ROI)"
+[image7]: ./results/Steering_Angle_Distribution.png "Steering Angle Distribution"
+[image8]: ./results/nvidia_network.png "Nvidia Network"
+[image9]: ./results/MyModel.png "My Implemented Nvidia Network"
+[image10]: ./results/Loss_of_training_and_validation.png "Loss of training and validation"
 
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
