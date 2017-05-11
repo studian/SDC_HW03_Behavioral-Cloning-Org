@@ -27,7 +27,7 @@ The goals / steps of this project are the following:
 
 ---
 
-####1. Udacity Self-driving-car Simulator based Data Recoding 
+<b>1. Udacity Self-driving-car Simulator based Data Recoding</b>
 * The simulator has Training mode and Autonomous mode and two courses. 
 * In my case, I only tested on the track1.
 * Training mode is used to collect training data by driving through the tracks and recording the driving data. 
