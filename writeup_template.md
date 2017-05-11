@@ -35,6 +35,26 @@ The goals / steps of this project are the following:
 
 ![alt text][image1]
 
+<b>2. Train Data Sets</b>
+
+To make trainning model, I used to udacity datasets. Udacity dataset has the number of 24,108 data as below:
+* number of images taken from a center camera: 8036
+* number of images taken from a camera translated to the left: 8036
+* number of images taken from a camera translated to the right: 8036
+* color channels: 3 (RGB)
+* dimensions: 320x160
+
+Attributes available in the dataset:
+* 'center' - center camera image
+* 'left' - left camera image
+* 'right' - right camera image
+* 'steering' - steering angle at the time the images was taken
+* 'throttle' - throttle value
+* 'brake' - brake value
+* 'speed' - speed value
+
+There is an examples of the left, center, and right images.
+![alt text][image2]
 
 ####1. Submission includes all required files and can be used to run the simulator in autonomous mode
 
