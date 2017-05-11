@@ -83,6 +83,20 @@ I use the NVIDIA pipeline for my model because NVIDIA model is the best pipeline
 ![alt text][image8]
 ![alt text][image9]
 
+First layer is the normalization layer. According to the Nvidia paper, this enables normalization also to be accelerated via GPU processing.
+
+Convolution were used in the first three layers with 2x2 strides and a 5x5 kernel and non-stride convolution with 3x3 kernel size in the last two convolutional layers.
+
+The convolutional layers were followed by three fully connected layers which then outputs the steering angle.
+
+Activation to introduce non-linearities into the model: I chose ELU as my activation.
+
+I used the Dropout (0.5) and L2 Regularization (0.001) on all layer to avoiding the overfitting. This turned out to be a good practice as the model could generalize to the second track, without using it for training.
+
+I used Adam optimizer and learning rate 0.001. I tried to train my model using some learning rate such as 0.01 and 0.005. Finally, I got the best results using learning rate 0.001, so I choose the 0.001 for my model training.
+
+Finally, I got the my trained model: model_hkkim.h5
+
 In this model, I was set ROI area in the images as follows;
 ![alt text][image6]
 
