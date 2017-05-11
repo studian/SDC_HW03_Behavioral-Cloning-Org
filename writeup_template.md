@@ -35,6 +35,8 @@ The goals / steps of this project are the following:
 
 ![alt text][image1]
 
+---
+
 <b>2. Train Data Sets</b>
 
 To make trainning model, I used to udacity datasets. Udacity dataset has the number of 24,108 data as below:
@@ -55,6 +57,20 @@ Attributes available in the dataset:
 
 There is an examples of the left, center, and right images.
 ![alt text][image2]
+
+To make general trainning model, I use new datasets using two methods.
+
+* First method is random flipping : I make flipped images of probability 50%.
+ ![alt text][image5]
+ 
+* Second method is random brightness of H chanel in the HSV domain : 
+ ![alt text][image3]
+ ![alt text][image4]
+
+There is an examples of the left, center, and right images.
+
+<b>3. Train Data Sets</b>
+
 
 ####1. Submission includes all required files and can be used to run the simulator in autonomous mode
 
