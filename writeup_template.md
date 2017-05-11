@@ -100,6 +100,13 @@ Finally, I got the my trained model: model_hkkim.h5
 In this model, I was set ROI area in the images as follows;
 ![alt text][image6]
 
+* model_hkkim.py : training model
+* drive.py : drive a car in a simulator
+* model_hkkim.json : saved training model
+* model_hkkim.h5 : saved training weight
+* Analysis_Model_hkkim.ipynb and Analysis_Model_hkkim.html : Analysis of the training process
+* Track1.mp4 : test result of the track1
+
 ---
 
 <b>4. Result of Test Simulation</b>
