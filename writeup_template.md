@@ -39,7 +39,7 @@ The goals / steps of this project are the following:
 
 <b>2. Train Data Sets</b>
 
-To make trainning model, I used to udacity datasets. Udacity dataset has the number of 24,108 data as below:
+To make training model, I used to udacity datasets. Udacity dataset has the number of 24,108 data as below:
 * number of images taken from a center camera: 8036
 * number of images taken from a camera translated to the left: 8036
 * number of images taken from a camera translated to the right: 8036
@@ -58,7 +58,10 @@ Attributes available in the dataset:
 There is an examples of the left, center, and right images.
 ![alt text][image2]
 
-To make general trainning model, I use new datasets using two methods.
+There is an distribution of the traing steering angle datasets.
+![alt text][image7]
+
+To make general training model, I use new datasets using two methods.
 
 * First method is random flipping : I make flipped images of probability 50%.
  ![alt text][image5]
@@ -67,7 +70,19 @@ To make general trainning model, I use new datasets using two methods.
  ![alt text][image3]
  ![alt text][image4]
 
-There is an examples of the left, center, and right images.
+---
+
+<b>3. Traning Model</b>
+
+I use the NVIDIA pipeline for my model because NVIDIA model is the best pipeline for this project in my try and also many students recommend this pipeline. NVIDIA model consists of 9 layers, including a normalization layer, 5 convolutional layers and 3 fully connected layers. I added the cropping layer to NVIDIA model.
+
+[alt text][image8]
+[alt text][image9]
+
+In this model, I was set ROI area in the images as follows;
+[alt text][image6]
+
+---
 
 <b>3. Train Data Sets</b>
 
