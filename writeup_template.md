@@ -56,17 +56,21 @@ Attributes available in the dataset:
 * 'speed' - speed value
 
 There is an examples of the left, center, and right images.
+
 ![alt text][image2]
 
 There is an distribution of the traing steering angle datasets.
+
 ![alt text][image7]
 
 To make general training model, I use new datasets using two methods.
 
 * First method is random flipping : I make flipped images of probability 50%.
+
  ![alt text][image5]
  
 * Second method is random brightness of H chanel in the HSV domain : 
+
  ![alt text][image3]
  ![alt text][image4]
 
@@ -76,11 +80,11 @@ To make general training model, I use new datasets using two methods.
 
 I use the NVIDIA pipeline for my model because NVIDIA model is the best pipeline for this project in my try and also many students recommend this pipeline. NVIDIA model consists of 9 layers, including a normalization layer, 5 convolutional layers and 3 fully connected layers. I added the cropping layer to NVIDIA model.
 
-[alt text][image8]
-[alt text][image9]
+![alt text][image8]
+![alt text][image9]
 
 In this model, I was set ROI area in the images as follows;
-[alt text][image6]
+![alt text][image6]
 
 ---
 
